@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  body {
+    @apply font-secondary text-[20px] text-secondary;
+    overflow-x: hidden;
+    font-family: "Jost", system-ui;
+    a {
+      @apply text-[20px] transition-all duration-300;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply font-primary text-primary;
+    }
+    
+    .h1 {
+      @apply text-[34px] md:text-[40px] lg:text-[46px] xl:text-[50px] leading-none;
+    }
+    .h2 {
+      @apply text-[20px] md:text-[24px] lg:text-[30px] xl:text-[34px] leading-tight;
+    }
+    .h3 {
+      @apply text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] leading-tight;
+    }
+    .subtitle {
+      @apply text-primary-hover text-[22px] md:text-[24px] lg:text-[28px] xl:text-[30px] font-tertiary;
+    }
+    .btn {
+      @apply py-[5px] px-[20px] transition-all duration-300 text-white rounded-[18px] gap-2;
+    }
+    .btn-primary {
+      @apply bg-primary hover:bg-primary-hover;
+    }
+    .btn-accent {
+      @apply bg-accent  hover:bg-accent-hover;
+    }
+   .responsive-max-width {
+  @apply max-w-[640px] md:max-w-[768px]  md:bg-slate-500 lg:max-w-[960px]  bg-slate-500 xl:max-w-[1500px]  bg-slate-500;
+}
+  
+
+    .avatar{
+      margin-left: -20px;
+    }
+   
+  }
+}
+ 

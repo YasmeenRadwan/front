@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "user": "Sara",
+      "rating": 4,
+      "title": "Delicious!",
+      "content": "I loved the flavors in this dish. Will order again!"
+    },
+    {
+      "id": 2,
+      "user": "Yasmeen",
+      "rating": 5,
+      "title": "Best meal ever!",
+      "content": "This was absolutely fantastic! Highly recommend."
+    },
+    {
+      "id": 3,
+      "user": "Ahmed",
+      "rating": 2,
+      "title": "Good but could be better",
+      "content": "The meal was decent, but it lacked some seasoning."
+    }
+  ]
+  
